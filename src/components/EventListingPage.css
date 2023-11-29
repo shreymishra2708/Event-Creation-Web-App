@@ -1,0 +1,92 @@
+/* EventListingPage.css */
+/* margin-right:10rem; */
+.event-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border: 0.5rem solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  background-color: gainsboro;
+}
+.headingbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.event-heading {
+  margin-left: 5rem;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+.upbtn {
+  margin-left: 65rem;
+  height: 2.5rem;
+  color: black;
+  background-color: white;
+}
+.pasbtn {
+  margin-left: 1.5rem;
+  height: 2.5rem;
+  color: black;
+  background-color: white;
+}
+.upbtn:hover {
+  background-color: gainsboro;
+}
+.pasbtn:hover {
+  background-color: gainsboro;
+}
+.event-list {
+  list-style: none;
+  padding: 0;
+  color: black;
+}
+.event-cont {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5rem;
+}
+.event-detail-img {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  width: 100rem;
+}
+.event-details {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  flex-grow: 1;
+}
+
+.event-item {
+  margin-bottom: 0.5rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.event-date {
+  font-size: 2rem;
+}
+.event-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 130%;
+  height: auto;
+  border: brown;
+  border-radius: 0.8rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-bottom:2rem;
+}
+
+.invite {
+  color: white;
+  background-color: blue;
+}
